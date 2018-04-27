@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        android:text="Select categories to Report Chat"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:textSize="16dp"
+        android:fontFamily="@font/aclonica"
+
+        />
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_abusive"
+        android:textSize="14dp"
+        android:fontFamily="@font/aclonica"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Abusive"
+        android:padding="10dp"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_nudity"
+        android:textSize="14dp"
+        android:fontFamily="@font/aclonica"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Nudity"
+        android:padding="10dp"
+        />
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox_spammer"
+        android:textSize="14dp"
+        android:fontFamily="@font/aclonica"
+        android:buttonTint="@color/colorPrimary"
+        android:text="Spammer"
+        android:padding="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Add description(Optional)"
+        android:paddingLeft="10dp"
+        android:textStyle="normal"
+        android:textColor="@color/black"
+        android:textColorHint="@color/grey"
+        android:id="@+id/edit_msg"
+        android:textSize="14dp"
+        android:lines="3"
+        android:inputType="textMultiLine"
+        android:minLines="1"
+        android:scrollbars="vertical"
+        android:fadeScrollbars="false"
+        android:background="@drawable/chatbg"
+        android:backgroundTint="@color/cloudy"
+        android:gravity="start"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:fontFamily="@font/aclonica"
+        android:textSize="14dp"
+        android:id="@+id/submit"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        />
+
+</LinearLayout>

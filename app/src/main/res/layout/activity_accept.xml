@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.houseofapps.heystranger.Accept">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logoapp_new"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center"
+        android:tint="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lily_script_one"
+        android:text="Hey Stranger"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/terms"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/termsn"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/aclonica"
+            />
+
+        <View
+            android:layout_width="170dp"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You must be 18+"
+            android:gravity="center"
+            android:textSize="14dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/black"
+            />
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Accept"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_solid_bg"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aclonica"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="16dp"
+        android:id="@+id/accept_btn"
+        />
+
+
+</LinearLayout>

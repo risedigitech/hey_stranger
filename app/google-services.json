@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "360274914712",
+    "firebase_url": "https://heystrang.firebaseio.com",
+    "project_id": "heystrang",
+    "storage_bucket": "heystrang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:360274914712:android:2d3c1ac7bda9fa20",
+        "android_client_info": {
+          "package_name": "com.houseofapps.heystranger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "360274914712-bll80j9ldjedi1f7gkh2e2ctah8mo7d0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgy8YMfTpqOx179ypBb7QYfchmHjax5b4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

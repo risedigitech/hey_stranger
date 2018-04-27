@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Hey Stranger</string>
+    <string name="terms">I have read &amp; agree to</string>
+    <string name="termsn">Terms &amp; Conditions</string>
+    <string name="termsn_">Say Hey to Stranger\n\nDon\'t share OTHERS phone/contact details &amp; prohibited images.In case of complaint, we can track the malicious user, the information will be passed to respective \n\nLAW ENFORCEMENT AUTHORITIES.\n\n This is not Sex chat app. You will be blocked.</string>
+    <string name="title_activity_home">Home</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_chattingtest">Chattingtest</string>
+</resources>

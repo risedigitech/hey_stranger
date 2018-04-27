@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.houseofapps.heystranger.Home"
+    tools:showIn="@layout/app_bar_home"
+    android:background="@color/white"
+
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logoapp_new"
+        android:layout_marginTop="90dp"
+        android:layout_gravity="center"
+        android:tint="@color/colorPrimary"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/lily_script_one"
+        android:gravity="center"
+        android:text="Hey Stranger"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Start Chat"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_solid_bg"
+        android:backgroundTint="@color/colorPrimary"
+
+        android:textColor="@color/white"
+        android:fontFamily="@font/aclonica"
+        android:textSize="16dp"
+        android:id="@+id/start_chat_btn"
+        android:layout_marginTop="70dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Report Abuse"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/rectangle_solid_bg"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aclonica"
+        android:backgroundTint="@color/colorPrimary"
+        android:textSize="16dp"
+        android:visibility="gone"
+        android:id="@+id/report_btn"
+        android:layout_marginTop="15dp"
+        />
+
+</LinearLayout>
